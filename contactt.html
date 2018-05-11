@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Contact</title>
+      <link rel="icon" type="image/png" href="imgs/BMGLogo.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <style>
+         thead {
+         color: green;
+         }
+         tbody {
+         color: orange;
+         background-color: white;
+         }
+         tr:hover {
+         color: green;
+         }
+         td {
+         text-align: center;
+         }
+         body {font-family: "Jua", sans-serif;}
+         h1 {
+         font-family: "Jua", sans-serif;
+         color: green;
+         }
+         h2 {
+         font-family: "Jua", sans-serif;
+         color: green;
+         }
+         h3 {
+         font-family: "Jua", sans-serif;
+         }
+         h4 {
+         font-family: "Jua", sans-serif;
+         color: orange;
+         }
+         p {
+         color: #A0522D;
+         }
+         .myfooter {
+         background-image: url("imgs/background.jpg");
+         }
+         .footer .row {
+         text-align: left;
+         }
+         .footer p {
+         color: black;
+         }
+         .footer p a:hover {
+         color: black;
+         text-shadow: 0 0 5px  #98FB98;
+         text-decoration: none;
+         }
+         .navbar {
+         background-color: white;
+         }
+         .navbar li a, .navbar .navbar-brand {
+         color: orange;
+         }
+         .navbar-nav li a:hover, .navbar-nav li.active a {
+         color: green;
+         background-color:  #98FB98;
+         }
+         .navbar-default .navbar-toggle {
+         border-color: transparent;
+         color: #fff !important;
+         }
+         .carlink {
+         text-shadow: 0 0 5px #000000;
+         color: orange;
+         font-family: "Jua", sans-serif;
+         }
+         .carlink:hover {
+         text-shadow: 0 0 5px #000000;
+         color: white;
+         text-decoration: none;
+         }
+         .zoom {
+         transition: transform .3s;
+         margin: 0 auto;
+         }
+         .zoom:hover {
+         -ms-transform: scale(1.05);
+         -webkit-transform: scale(1.05);
+         transform: scale(1.05); 
+         }
+         .slideanim {visibility:hidden;}
+         .slide {
+         animation-name: slide;
+         -webkit-animation-name: slide; 
+         animation-duration: 1s; 
+         -webkit-animation-duration: 1s;
+         visibility: visible; 
+         }
+         .button {
+         font-size: 50px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background-image: url(imgs/gofund.png);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px #999;
+         height: 126px;
+         width: 188px;
+         }
+         .button:hover {background-color: #3e8e41}
+         .button:active {
+         background-color: #3e8e41;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+         }
+      </style>
+      <nav class="navbar navbar-fixed-top hidden-xs" style="position: fixed; background-color: white;">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="index.html"><img src="imgs/BMGLogo.png" alt="bedford mission garden logo" style="height: 20px; vertical-align: center;"></a>
+            </div>
+            <ul class="nav navbar-nav">
+               <li><a href="events.html" style="">Events</a></li>
+               <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Support
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="volunteerr.html">Volunteer</a></li>
+                     <li><a href="donatee.html">Donate</a></li>
+                  </ul>
+               </li>
+               <li><a href="contactt.html">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+               <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search not yet availlable">
+               </div>
+               <button type="submit" class="btn btn-default disabled"><span class="glyphicon glyphicon-search" style="color: orange;"></span></button>
+            </form>
+         </div>
+      </nav>
+      <nav class="navbar navbar-fixed-top visible-xs">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="glyphicon glyphicon-menu-hamburger" style="color: orange;"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"><img src="imgs/BMGLogo.png" alt="bedford mission garden logo" style="height: 20px; vertical-align: center;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="volunteerr.html">Volunteer</a></li>
+                  <li><a href="donatee.html">Donate</a></li>
+                  <li><a href="contactt.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container-fluid text-center" style="max-width: 1000px; padding-top: 75px;">
+         <h1>Contact Us</h1>
+         <br>
+      </div>
+      <div style="background-image: url(imgs/row1.jpg); height:10px; padding-bottom: 10px; padding-top: 10px">
+      </div>
+      <div class="container-fluid text-center" style="background-color: white; padding-top: 25px;" id="map">
+         <h2>Directions</h2>
+         <br>
+         <div class="row">
+            <div class="col-sm-6">
+               <div id="googleMap" style="width:100%;height:300px;"></div>
+            </div>
+            <div class="col-sm-6">
+               <h4>4 Church Rd<br>Bedford, NH 03110</h4>
+               <p>Approximately 100 feet behind the Bedford Presbyterian Church parking lot.  If you have trouble finding us, go to the covered patio area at the northern side of the church: the garden will be visible from there.</p>
+            </div>
+         </div>
+         <br>
+      </div>
+      <div style="background-image: url(imgs/row1.jpg); height:10px; padding-bottom: 10px; padding-top: 10px">
+      </div>
+      <div class="container-fluid bg-grey" style="padding-top: 25px; padding-bottom: 25px;">
+         <h2 class="text-center">Message</h2>
+         <div class="row">
+            <div class="col-sm-5">
+               <p><span class="glyphicon glyphicon-map-marker"></span> Bedford, NH</p>
+               <p><span class="glyphicon glyphicon-phone"></span> +1 603 660 4653</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> bedfordmissiongarden@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+               <div class="row">
+                  <div class="col-sm-6 form-group">
+                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+               </div>
+               <textarea class="form-control" id="comments" name="comments" placeholder="Messages not yet availlable" rows="5"></textarea>
+               <br>
+               <div class="row">
+                  <div class="col-sm-12 form-group">
+                     <button class="btn btn-default pull-right disabled" type="submit">Send</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="container-fluid bg-4 text-center footer myfooter" >
+         <p>Site Map</p>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <p><a href="index.html">Home</a></p>
+                  <p style="text-indent: 5px;"><a href="index.html#partners">Learn More</a></p>
+                  <p style="text-indent: 5px;"><a href="index.html#connect">Social Media</a></p>
+                  <p style="text-indent: 5px;"><a href="index.html#progress">Watch Our Progress</a></p>
+               </div>
+               <div class="col-sm-4">
+                  <p><a href="events.html">Events</a></p>
+                  <p style="text-indent: 5px;"><a href="events.html#calendar">Calendar</a></p>
+                  <p style="text-indent: 5px;"><a href="events.html#news">Recent News</a></p>
+                  <br>
+                  <p><a href="contactt.html">Contact</a></p>
+                  <p style="text-indent: 5px;"><a href="contactt.html#email">Message</a></p>
+                  <p style="text-indent: 5px;"><a href="contactt.html#map">Directions</a></p>
+               </div>
+               <div class="col-sm-4">
+                  <p>Support</p>
+                  <p><a href="volunteerr.html">Volunteer</a></p>
+                  <p style="text-indent: 5px;"><a href="volunteerr.html#list">Mailing List for Volunteers</a></p>
+                  <p style="text-indent: 5px;"><a href="volunteerr.html#ongoing">Ongoing Opportunities</a></p>
+                  <p><a href="donatee.html">Donate</a></p>
+                  <p style="text-indent: 5px;"><a href="donatee.html#contact">Contact Kayley</a></p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script>
+         function myMap(){
+              myCenter=new google.maps.LatLng(42.945072, -71.519966);
+              var mapOptions= {
+                  center:myCenter,
+                  zoom:15, scrollwheel: false, draggable: true,
+                  mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+              var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+             
+              var marker = new google.maps.Marker({
+                  position: myCenter,
+              });
+              marker.setMap(map);
+             }
+         $(document).ready(function(){
+         $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+           if (this.hash !== "") {
+             event.preventDefault();
+         
+             var hash = this.hash;
+         
+             $('html, body').animate({
+               scrollTop: $(hash).offset().top
+             }, 900, function(){
+          
+               window.location.hash = hash;
+             });
+           } 
+         });
+         
+         $(window).scroll(function() {
+           $(".slideanim").each(function(){
+             var pos = $(this).offset().top;
+         
+             var winTop = $(window).scrollTop();
+               if (pos < winTop + 600) {
+                 $(this).addClass("slide");
+               }
+           });
+         });
+         });
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtlDNWRSVCemkzgcce3oQAIa4k27Za940&callback=myMap"></script>
+   </body>
+</html>
